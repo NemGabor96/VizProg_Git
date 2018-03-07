@@ -1,0 +1,2 @@
+# Diakszovetkezet
+Vizprog beadandó
