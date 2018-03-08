@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Diakszovetkezet"
         mc:Ignorable="d"
         Title="Diák munkák" Height="760" Width="1280">
-    <Grid>
+    <Grid >
         
     </Grid>
 </Window>

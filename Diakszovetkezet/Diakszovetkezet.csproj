@@ -58,6 +58,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="DBConnection.cs" />
+=======
+    <Compile Include="structUserData.cs" />
+>>>>>>> Gábor
     <Compile Include="wndBejelentkezes.xaml.cs">
       <DependentUpon>wndBejelentkezes.xaml</DependentUpon>
     </Compile>
@@ -66,6 +71,9 @@
     </Compile>
     <Compile Include="wndRegisztracio.xaml.cs">
       <DependentUpon>wndRegisztracio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="wndRendszerAdmin.xaml.cs">
+      <DependentUpon>wndRendszerAdmin.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +114,10 @@
     <Page Include="wndRegisztracio.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="wndRendszerAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

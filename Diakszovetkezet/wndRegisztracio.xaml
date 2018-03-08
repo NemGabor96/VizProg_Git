@@ -5,9 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Diakszovetkezet"
         mc:Ignorable="d"
-        Title="wndRegisztracio" Height="440" Width="600">
+        Title="Regisztráció" Height="440" Width="600">
     <Grid Background="AliceBlue">
-        
-        
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+
     </Grid>
 </Window>
